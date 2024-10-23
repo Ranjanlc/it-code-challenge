@@ -1,0 +1,96 @@
+.partner {
+  padding: 80px 115px;
+}
+
+.partner_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.partner_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.partner_title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #272d37;
+  letter-spacing: -0.64px;
+}
+
+.partner_desc {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5f6d7e;
+  letter-spacing: -0.1px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.partner_cards {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1540px;
+}
+
+.partner_button {
+  margin-top: 32px;
+}
+
+.secondary-btn {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 18px;
+  color: #eaaa00;
+  background-color: #862633;
+  border: 0.8px solid #2b3142;
+  border-radius: 6px;
+  font-family: "Inter";
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.secondary-btn:hover {
+  color: #862633;
+  background-color: #eaaa00;
+}
+.secondary-btn {
+  background-color: #fff;
+  color: #272d37;
+}
+@media screen and (max-width: 1450px) {
+  .partner {
+    padding: 80px 20px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .partner {
+    padding: 80px 15px 80px 15px;
+  }
+
+  .partner_container .partner_header {
+    padding-right: 15px;
+  }
+
+  .partner_cards.home {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+}

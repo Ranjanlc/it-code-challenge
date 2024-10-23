@@ -1,0 +1,37 @@
+.contact{
+    padding: 64px 80px;
+    background: #151B28;
+}
+
+.contact_container{
+    padding: 0 32px;
+    display: flex;
+    gap: 48px;
+}
+
+@media screen and (max-width:1300px) {
+    .contact{
+        padding: 64px 20px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .contact{
+        padding: 64px 0px;
+    }
+}
+
+@media screen and (max-width:1118px) {
+    .contact_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:650px){
+    .contact_container{
+        padding: 0 16px;
+    }
+}

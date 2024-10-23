@@ -1,0 +1,21 @@
+.leftsvg {
+  width: 643px;
+  height: 493px;
+  flex-shrink: 0;
+  fill: rgba(2, 50, 10, 0.03);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.rightsvg {
+  width: 684.966px;
+  height: 571.466px;
+  flex-shrink: 0;
+  top: 55px;
+  fill: rgba(2, 50, 10, 0.03);
+  position: absolute;
+  right: -200px;
+  z-index: 1;
+}

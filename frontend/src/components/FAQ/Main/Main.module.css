@@ -1,0 +1,63 @@
+.faq_main {
+  padding: 50px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.faq_main_container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+.title {
+  color: #000;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.32px;
+  text-transform: capitalize;
+}
+
+.desc {
+  max-width: 852px;
+  color: #5d5a5a;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.desc a {
+  text-decoration: underline;
+  color: #5d5a5a;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.contents {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}

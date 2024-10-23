@@ -1,0 +1,109 @@
+.home_hero {
+  padding: 0 88px;
+  background-image: url("/images/Hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero_container {
+  padding: 80px 30px 92px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero_title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+h2.hero_content {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+}
+
+p.hero_content {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero_buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 46px;
+}
+
+.hero_buttons button.secondary-btn {
+  border: 0.8px solid #fff;
+}
+
+.sky_blue-btn:hover {
+  background-color: #862633;
+  color: #eaaa00;
+}
+
+.sky_blue-btn {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 18px;
+  background-color: #eaaa00;
+  border: 0;
+  color: #fff;
+  border-radius: 6px;
+  font-family: "Inter";
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 814px) {
+  .home_hero {
+    padding: 0 44px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home_hero {
+    padding: 0;
+  }
+
+  .hero_container {
+    padding: 80px 10px 92px;
+  }
+
+  .hero_title {
+    font-size: 16px;
+  }
+
+  h2.hero_content {
+    font-size: 24px;
+  }
+
+  p.hero_content {
+    font-size: 20px;
+  }
+
+  .hero_title,
+  h2.hero_content,
+  p.hero_content {
+    padding: 5px;
+    font-weight: 600;
+  }
+}

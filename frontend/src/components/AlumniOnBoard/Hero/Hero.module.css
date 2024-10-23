@@ -1,0 +1,42 @@
+.onboard_hero {
+  width: 100%;
+  height: 300px;
+  background: #862633;
+}
+
+.onboard_hero_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.onboard_title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.onboard_desc {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #eaaa00;
+  text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  .onboard_hero_container {
+    padding: 0 20px;
+  }
+  .onboard_title {
+    font-weight: 600;
+    font-size: 34px;
+  }
+}

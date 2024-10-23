@@ -1,0 +1,48 @@
+.hero_slider {
+  min-height: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+h2.hero_content {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+}
+
+p.hero_content {
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero_slider .dot_container {
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  justify-content: center;
+  right: 0;
+}
+
+.hero_slider .dot_container .dot {
+  color: #fff;
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin-left: 5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.hero_slider .dot_container .dot.active,
+.hero_slider .dot_container .dot:hover {
+  background: #02320a;
+}

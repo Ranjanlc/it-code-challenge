@@ -1,0 +1,117 @@
+.faq_hero {
+  background: #862633;
+  display: flex;
+  padding: 50px 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq_hero_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 874px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+
+.heading {
+  color: #eaaa00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.desc {
+  color: #c7b6b6;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bottom {
+  display: flex;
+  width: 100%;
+  max-width: 450px;
+  padding: 15px 30px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+  background: #fff;
+  position: relative;
+}
+
+.bottom input {
+  color: #727070;
+  font-family: "Inter";
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  border: none;
+}
+
+.bottom svg {
+  height: 20px;
+  width: 20px;
+  color: #727070;
+}
+
+.bottom svg.close {
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.bottom svg.close.active {
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .heading {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .desc {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}

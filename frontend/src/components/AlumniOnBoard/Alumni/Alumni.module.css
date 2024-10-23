@@ -1,0 +1,191 @@
+.onboard {
+  padding: 0px 112px 41px;
+}
+
+.onboard_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.onboard_partner_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 32px 0;
+  margin-bottom: 64px;
+  position: sticky;
+  top: 100px;
+  z-index: 20;
+  background-color: #ffffff;
+}
+
+.admin {
+  display: flex;
+  gap: 10px;
+}
+.admin button {
+  background-color: #eaaa00;
+  color: #862633;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.admin button:hover {
+  color: #eaaa00;
+  background-color: #862633;
+}
+
+.partner_cards {
+  display: flex;
+  width: 100%;
+  max-width: 1540px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.search {
+  display: flex;
+}
+
+.search_content {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  width: 382px;
+  border: 1px solid #cdd1d8;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search_icon {
+  color: #919ba7;
+  width: 18.33px;
+  height: 18.33px;
+  margin: 0 10px 0 0;
+}
+
+.searchTerm {
+  width: 330px;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  line-height: 22px;
+  color: #919ba7;
+  outline: none;
+  border: none;
+}
+
+.search_button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #ffffff;
+}
+.primary-btn,
+.secondary-btn,
+.sky_blue-btn {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 18px;
+  color: #eaaa00;
+  background-color: #862633;
+  border: 0.8px solid #2b3142;
+  border-radius: 6px;
+  font-family: "Inter";
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.primary-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.primary-btn:hover,
+.secondary-btn:hover {
+  color: #862633;
+  background-color: #eaaa00;
+}
+.secondary-btn {
+  background-color: #fff;
+  color: #272d37;
+}
+a.addPartner {
+  width: fit-content;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 18px;
+  color: #eaaa00;
+  background-color: #862633;
+  border: 0.8px solid #2b3142;
+  border-radius: 6px;
+  font-family: "Inter";
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+a.addPartner:hover {
+  color: #862633;
+  background-color: #eaaa00;
+}
+
+@media screen and (max-width: 1438px) {
+  .onboard {
+    padding: 41px 32px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .onboard {
+    padding: 41px 15px;
+  }
+
+  .onboard_partner_search {
+    padding-right: 15px;
+  }
+
+  .search_content {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .partner_cards.home {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .onboard {
+    padding: 41px 0 41px 25px;
+  }
+
+  .onboard_partner_search {
+    flex-direction: column;
+    padding-right: 25px;
+  }
+
+  a.addPartner {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .onboard {
+    padding: 41px 0 41px 10px;
+  }
+
+  .onboard_partner_search {
+    padding-right: 10px;
+  }
+
+  .search_content {
+    width: 200px;
+  }
+}
